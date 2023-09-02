@@ -16,4 +16,4 @@ data.append({
   "Longitude" : -80.52
 })
 
-st.map(data)
+st.map({43.46}, {-80.52})
