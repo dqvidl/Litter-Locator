@@ -12,7 +12,7 @@ st.write("Report litter polluted areas")
 
 option = st.selectbox(
     'How would you like to report a littered area?',
-    ('Address', 'Drop pin on map'))
+    ('Drop pin on map', 'Address'))
 
 st.write('You selected:', option)
 
