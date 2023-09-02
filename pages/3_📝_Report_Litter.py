@@ -26,4 +26,9 @@ elif option == 'Drop pin on map':
 
   st.map(df)
 
+st.subheader("Please provide an image")
 
+picture = st.camera_input("Take a picture")
+
+if picture:
+    st.image(picture)
