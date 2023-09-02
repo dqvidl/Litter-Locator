@@ -15,6 +15,10 @@ option = st.selectbox(
     ('Choose','Drop pin on map', 'Address'))
 
 st.write('You selected:', option)
+while option == 'Choose':
+  option = st.selectbox(
+    'How would you like to report a littered area?',
+    ('Choose','Drop pin on map', 'Address'))
 
 if option == "Address":
   address = st.text_input("Address")
