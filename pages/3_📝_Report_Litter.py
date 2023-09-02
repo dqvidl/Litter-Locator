@@ -35,5 +35,5 @@ if pictureorno == 'YES':
   if picture:
     st.image(picture)
 
-st.subtext("Thank you")
+st.subheader("Thank you")
 
