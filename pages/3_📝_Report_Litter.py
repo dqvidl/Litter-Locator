@@ -23,7 +23,7 @@ elif option == 'Drop pin on map':
   st.write("hello world")
 
 df = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [43.46, -80.52],
+    np.random.randn(100, 2) / [50, 50] + [43.46, -80.52],
     columns=['lat', 'lon'])
 
 st.map(df)
