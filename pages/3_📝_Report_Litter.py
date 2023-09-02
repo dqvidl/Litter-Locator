@@ -20,6 +20,8 @@ option = st.selectbox(
 st.write('You selected:', option)
 
 
+data = pd.DataFrame(colums=['lat', 'lon'])
+
 if option == "Address":
   address = st.text_input("Address")
   if st.button("Find"):
@@ -29,18 +31,15 @@ if option == "Address":
           location = geolocator.geocode(address)
 
           if location:
-              st.success(f"Latitude: {location.latitude}, Longitude: {location.longitude}")
+              data += ({location.latitude}, {location.lonitude})
+              st.write("Thanks for your input")
           else:
               st.error("Address not found. Please enter a valid address.")
       except Exception as e:
             st.error(f"An error occurred: {str(e)}")
 
 elif option == "Drop pin on map":
-  df = pd.DataFrame(
-    np.random.randn(0, 1) / [50, 50] + [43.46, -80.52],
-    columns=['lat', 'lon'])
-
-  st.map(df)
+  st.map(data)
 
 st.subheader("Picture")
 
