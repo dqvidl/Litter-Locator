@@ -11,3 +11,4 @@ st.header("Report Litter")
 st.write("Report litter polluted areas")
 
 address = st.text_input("Address")
+
