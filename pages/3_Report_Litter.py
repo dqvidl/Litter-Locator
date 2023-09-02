@@ -8,4 +8,6 @@ st.set_page_config(
 ) 
 
 st.header("Report Litter")
-st.write("THIS IS A TEST")
+st.write("Report litter polluted areas")
+
+address = st.text_input("Address")
