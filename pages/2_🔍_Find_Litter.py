@@ -1,7 +1,7 @@
 import streamlit as st
 # import pandas as pd
 
-st.title("Find Litter")
+st.header("Find Litter")
 st.write("Search for litter polluted areas near you")
 
 # locator = Nominatim(user_agent= "myGeocoder")
