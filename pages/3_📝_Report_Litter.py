@@ -28,7 +28,7 @@ elif option == "Drop pin on map":
 
 st.subheader("Picture")
 
-pictureorno = st.selectbox("Would you like to provide photographic evidence of the region?", 'YES', 'NO')
+pictureorno = st.selectbox("Would you like to provide photographic evidence of the region?", ' ', 'YES', 'NO')
 
 if pictureorno == 'YES':
   picture = st.camera_input("Take a picture")
