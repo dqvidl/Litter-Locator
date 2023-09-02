@@ -31,9 +31,17 @@ st.subheader("Picture")
 pictureorno = st.selectbox("Would you like to provide photographic evidence of the region?", (' ', 'YES', 'NO'))
 
 if pictureorno == 'YES':
-  picture = st.camera_input("Take a picture")
-  if picture:
-    st.image(picture)
+  pictureOption = st.selectbox("Choose:", (' ', 'Choose Photo from Library', 'Take Picture'))
+  if pictureOption == 'Take Picture':
+    picture = st.camera_input("Take a picture")
+    if picture:
+      st.image(picture)
+  elif pictureOption == 'Choose Photo from Library':
+    uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
+    for uploaded_file in uploaded_files:
+        bytes_data = uploaded_file.read()
+        st.write("filename:", uploaded_file.name)
+        st.write(bytes_data)
 
 st.subheader("Thank you")
 
