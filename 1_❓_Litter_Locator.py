@@ -12,7 +12,12 @@ st.write("Did you know that in the United States alone, an astonishing 51 billio
 
 st.divider()
 st.header("Our goal")
+st.write("At Litter Locator, our overarching goal is to create cleaner, more beautiful, and environmentally responsible communities. We envision a world where litter is no longer a blight on our neighborhoods, parks, and public spaces, and where the idea of a cleaner environment is championed by individuals and communities alike.")
 
+st.divider()
+st.header("Report")
+st.write("In the reporting section of Litter Locator, we've made it incredibly easy for you to be the catalyst for change in your community. When you come across a littered area that needs attention, simply navigate to our user-friendly reporting interface. Here, you can upload the exact location using GPS coordinates. However, there's more to it. We know that a picture is worth a thousand words, which is why we encourage you to snap a photo of the littered area. These images provide crucial context, helping us understand the extent of the issue and allowing volunteers to prepare accordingly. With your location and photographic evidence, you're not just reporting a problem; you're providing a clear and actionable insight that empowers our community to come together and make a real impact.")
 
-st.sidebar.success('test')
-
+st.divider()
+st.header("Find")
+st.write("We believe that change requires a collective effort. After a littered area has been reported on our Litter Locator website, the process of finding and addressing the litter becomes a community-driven effort. Once a report is submitted, it is immediately added to our interactive map, pinpointing the exact location for all users to see. Community members, volunteers, and concerned citizens can then take action by referring to the map, selecting a reported area that resonates with them, and organizing clean-up efforts. Our platform serves as a vital communication hub, connecting those who care with the specific areas in need of attention, ensuring that the response to litter reports is swift and effective. Together, we turn reports into action, making a lasting impact on the cleanliness and beauty of our communities.")
