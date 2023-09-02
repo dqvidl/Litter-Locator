@@ -1,10 +1,8 @@
 import streamlit as st
 import pandas as pd
-# reported_locations = pd.DataFrame(columns=["Location Name", "Description", "Latitude", "Longitude"])
 
 st.title("Find Litter")
 st.write("Search for litter polluted areas near you")
-# st.map(reported_locations)
 
 locator = Nominatim(user_agent= "myGeocoder")
 address = st.text_input("Address")
