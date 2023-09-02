@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import geopy
-from geopy.geocoders import Nominatim
+
 st.set_page_config(
   page_title = "Litter Locator",
   page_icon = "🌲",
@@ -46,8 +45,4 @@ if pictureorno == 'YES':
         st.write(bytes_data)
 
 st.subheader("Thank you")
-
-st.write("hello")
-location = geolocator.geocode("175 5th Avenue NYC")
-st.write("location.latitude, location.longitude")
 
