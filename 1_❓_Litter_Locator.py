@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from geopy.geocoders import Nominatim
 
 st.set_page_config(
   page_title = "Litter Locator",
