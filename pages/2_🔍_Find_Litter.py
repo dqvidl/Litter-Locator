@@ -17,4 +17,4 @@ search_radius = st.slider("Search Radius (kilometers)", min_value=1, max_value=1
 
 if st.button("Search"):
   location = geolocator.geocode(address)
-  st.write(f'{location.latitude}, {location, longitude}')
+  st.write(f'{location.latitude}, {location.longitude}')
