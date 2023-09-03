@@ -8,7 +8,6 @@ st.set_page_config(
   layout = "wide"
 ) 
 
-
 st.title("About Litter Locator")
 image = Image.open('environment.jpg')
 image2 = Image.open('climateaction.jpg')
