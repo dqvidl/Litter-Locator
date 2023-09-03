@@ -19,7 +19,7 @@ st.divider()
 with st.container():
   left_column, right_column = st.columns(2)
   with left_column:
-    header("Our goal")
+    st.header("Our goal")
     st.write("At Litter Locator, our overarching goal is to create cleaner, more beautiful, and environmentally responsible communities. We envision a world where litter is no longer a blight on our neighborhoods, parks, and public spaces, and where the idea of a cleaner environment is championed by individuals and communities alike.")
 
 st.divider()
