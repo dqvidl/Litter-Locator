@@ -30,3 +30,5 @@ st.write("In the reporting section of Litter Locator, we've made it incredibly e
 st.divider()
 st.header("Find")
 st.write("We believe that change requires a collective effort. After a littered area has been reported on our Litter Locator website, the process of finding and addressing the litter becomes a community-driven effort. Once a report is submitted, it is immediately added to our interactive map, pinpointing the exact location for all users to see. Community members, volunteers, and concerned citizens can then take action by referring to the map, selecting a reported area that resonates with them, and organizing clean-up efforts. Our platform serves as a vital communication hub, connecting those who care with the specific areas in need of attention, ensuring that the response to litter reports is swift and effective. Together, we turn reports into action, making a lasting impact on the cleanliness and beauty of our communities.")
+
+# david
